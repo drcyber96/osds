@@ -31,7 +31,7 @@
 
     @else
 
-    <a id="navbarDropdown" class="w3-bar-item  w3-button w3-center nav-link dropdown-toggle" href="#" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false" v-pre>
+    <a id="navbarDropdown" class="w3-bar-item  w3-button w3-right nav-link dropdown-toggle" href="#" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false" v-pre>
         <i class="fa fa-user"></i> Login As:{{ Auth::user()->name }} <span class="caret"></span>
     </a>
 

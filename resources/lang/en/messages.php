@@ -3,7 +3,7 @@
 <?php
 //welcome page english
 return[
-  'welcome'       => 'Welcome To Online Scammer Database System',
+  'welcome'       => 'Welcome To iSCAM',
    'Name'       => 'Name',
    'Trace Your Suspicious Scammers with One Single Search' => 'Trace Your Suspicious Scammers with One Single Search',
    'Search Now' => 'Search Now',

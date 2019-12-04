@@ -23,7 +23,7 @@ body {
         <div class="col-lg-10 align-self-end">
 
 
-          <h1 class="text-white font-weight-bold">iSCAM</h1>
+          <h1 class="text-white font-weight-bold">iSCAM </h1>
           <h1 class="text-white font-weight-bold">{{ __('messages.welcome') }}</h1>
           <hr class="divider my-4">
         </div>

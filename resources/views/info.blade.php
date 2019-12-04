@@ -23,7 +23,7 @@ body {
 
         <h1 class="text-white font-weight-bold">{{__('lang.Latest Posts')}}</h1>
         <p class="separator text-white font-weight-bold">{{__('lang.Tips to Avoid Online Shopping Fraud & What to Do If You Are a Victim')}}</p>
-				<div class="fb-share-button" data-href="https://iscam.ala.my/info" data-layout="button_count" data-size="large"><a target="_blank" href="https://www.facebook.com/sharer/sharer.php?u=https%3A%2F%2Fiscam.ala.my%2F&amp;src=sdkpreparse" class="fb-xfbml-parse-ignore">Share</a></div>
+				<div class="fb-share-button" data-href="https://iscam.ala.my/info" data-layout="button_count" data-size="large"><a target="_blank" href="https://www.facebook.com/sharer/sharer.php?u=https%3A%2F%2Fiscam.ala.my%2Finfo&amp;src=sdkpreparse" class="fb-xfbml-parse-ignore">Share</a></div>
 
       </div>
     </div>

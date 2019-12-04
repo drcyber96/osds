@@ -31,7 +31,7 @@
 
     @else
 
-    <a id="navbarDropdown" class="w3-bar-item w3-hide-small w3-button w3-right nav-link dropdown-toggle" href="#" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false" v-pre>
+    <a id="navbarDropdown" class="w3-bar-item  w3-button w3-right nav-link dropdown-toggle" href="#" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false" v-pre>
         <i class="fa fa-user"></i> Login As:{{ Auth::user()->name }} <span class="caret"></span>
     </a>
 
@@ -59,7 +59,7 @@
 
    <!-- Navbar on small screens -->
   <div id="navDemo" class="w3-bar-block w3-red w3-hide w3-hide-large w3-hide-medium">
-<br><br>
+
       <a href="/home" class="w3-bar-item w3-button w3-hover-yellow" onclick="toggleFunction()">{{ __('navbar.Home') }}</a>
     <a href="/customsearch" class="w3-bar-item w3-button w3-hover-blue" onclick="toggleFunction()">{{ __('navbar.Search Scammers') }}</a>
     <a href="/info" class="w3-bar-item w3-button w3-hover-yellow" onclick="toggleFunction()">{{ __('navbar.Info') }}</a>

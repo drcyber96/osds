@@ -25,18 +25,19 @@
 
 
 
-      <a class=" w3-bar-item w3-button w3-hide-small w3-right" href="{{ route('login') }}"> <i class="fa fa-user"></i>  {{ __('navbar.Login') }}</a>
+      <a class=" w3-bar-item w3-button  w3-right" href="{{ route('login') }}"> <i class="fa fa-user"></i>  {{ __('navbar.Login') }}</a>
       <a class=" w3-hide-small w3-right" href="{{ url('locale/mly') }}" >  Malay</a>
       <a class=" w3-hide-small w3-right" href="{{ url('locale/en') }}" > English|</a>
 
     @else
 
-    <a id="navbarDropdown" class="w3-bar-item w3-button w3-hide-small nav-link navbar-right dropdown-toggle" href="#" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false" v-pre>
+    <a id="navbarDropdown" class="w3-bar-item w3-button w3-right nav-link dropdown-toggle" href="#" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false" v-pre>
         <i class="fa fa-user"></i> Login As:{{ Auth::user()->name }} <span class="caret"></span>
     </a>
 
+
     <a class=" w3-hide-small w3-right" href="{{ url('locale/mly') }}" >  Malay</a>
-    <a class=" w3-hide-small w3-right" href="{{ url('locale/en') }}" > English|</a> 
+    <a class=" w3-hide-small w3-right" href="{{ url('locale/en') }}" > English|</a>
 
     <div class="dropdown-menu dropdown-menu-right" aria-labelledby="navbarDropdown">
     <a class="dropdown-item" href="{{ route('user.edit') }}">
@@ -52,19 +53,21 @@
     </form>
   </div>
   </div>
+
 @endguest
 </div>
 
    <!-- Navbar on small screens -->
   <div id="navDemo" class="w3-bar-block w3-red w3-hide w3-hide-large w3-hide-medium">
-    <br><br>
-      <a href="/home" class="w3-bar-item w3-button w3-hover-blue" onclick="toggleFunction()">{{ __('navbar.Home') }}</a>
+<br><br>
+      <a href="/home" class="w3-bar-item w3-button w3-hover-yellow" onclick="toggleFunction()">{{ __('navbar.Home') }}</a>
     <a href="/customsearch" class="w3-bar-item w3-button w3-hover-blue" onclick="toggleFunction()">{{ __('navbar.Search Scammers') }}</a>
     <a href="/info" class="w3-bar-item w3-button w3-hover-yellow" onclick="toggleFunction()">{{ __('navbar.Info') }}</a>
     <a href="/posts" class="w3-bar-item w3-button w3-hover-blue" onclick="toggleFunction()">{{ __('navbar.Post Feedback') }}</a>
 	<a href="/reportscam" class="w3-bar-item w3-button w3-hover-yellow" onclick="toggleFunction()">{{ __('navbar.Reports') }}</a>
-	<a href="{{ url('locale/en') }}"  onclick="toggleFunction()"><i class="fa fa-language"></i>EN</a>
-	<a href="{{ url('locale/mly') }}"  onclick="toggleFunction()"><i class="fa fa-language"></i> MLY</a>
+  <br>
+	<a  href="{{ url('locale/en') }}"  onclick="toggleFunction()"><i class="fa fa-language"></i>EN</a>
+	<a  href="{{ url('locale/mly') }}"  onclick="toggleFunction()"><i class="fa fa-language"></i> MLY</a>
 
 
   </div>

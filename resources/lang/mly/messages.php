@@ -2,7 +2,7 @@
 <?php
 //welcome page malay
 return[
-    'welcome'       => 'Selamat Datang Ke iSCAM',
+    'welcome'       => 'Selamat Datang Ke Sistem Pangkalan Data Scammer Atas Talian',
     'Name'       => 'Nama',
     'Trace Your Suspicious Scammers with One Single Search' => 'Mengesan Penipu yang Mencurigakan dengan Satu Carian Tunggal',
     'Search Now' => 'Cari Sekarang',

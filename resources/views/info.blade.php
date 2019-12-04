@@ -70,7 +70,7 @@ body {
 
         <div class="col-md-6 col-lg-4">
           <div class="block-blog text-left text-white font-weight-bold">
-            <a href="/Sindiket-Minta-Nombor-TAC-Bank"><img src={{url('images/TAC.jpg')}} alt="img" width="350" height="200"></a>
+            <a href="/Sindiket-Minta-Nombor-TAC-Bank"><img src={{url('images/tacc.jpg')}} alt="img" width="350" height="200"></a>
             <div class="content-blog">
               <h4><a href="/Sindiket-Minta-Nombor-TAC-Bank">{{__('lang.Sindiket Minta Nombor TAC Bank')}}</a></h4>
               <span>10, Oct 2019</span>

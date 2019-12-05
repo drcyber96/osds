@@ -44,7 +44,7 @@ body {
      <div class="col-lg-8 col-md-10 mx-auto">
        <h1 class="text-black text-center font-weight-bold">{{__('lang.Contact Us')}}</h1>
        <p class="text-center text-align text-white font-weight-bold">{{__('lang.If there are any problem and question, you can get in touch with us at:-')}}</p>
-        <p class="text-center text-align text-white font-weight-bold">admin@iscam.com.my</p>
+        <p class="text-center text-align text-white font-weight-bold">iscam.osds@gmail.com</p>
      </div>
    </div>
  </div>

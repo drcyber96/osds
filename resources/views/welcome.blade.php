@@ -34,7 +34,7 @@ body {
         <div class="col-lg-8 align-self-baseline">
         <h3> <p class="text-white font-weight-bold mb-5">{{ __('messages.Trace Your Suspicious Scammers with One Single Search') }}</p>  </h3>
 
-				<a class="btn btn-warning btn-lg js-scroll-trigger" href="/customsearch">{{ __('messages.Search Now') }}</a>
+				<a class="btn btn-primary btn-lg js-scroll-trigger" href="/customsearch">{{ __('messages.Search Now') }}</a>
 
 <br>
 

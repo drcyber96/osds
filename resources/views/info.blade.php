@@ -6,7 +6,7 @@
 <style>
 
 body {
-	background-image: url("/images/blog.jpg");
+	background-image: url("/images/welcome1.jpg");
   background-attachment: fixed;
   background-position: center;
   background-repeat: no-repeat;

@@ -10651,15 +10651,15 @@ a.text-dark:focus {
 }
 
 .table-bordered {
-  border: 10px solid #000000;
+  border: 5px solid #000000e8;
 }
 
 .table-bordered {
-  border: 5px solid #fbff00e8;
+  border: 10px solid #000000;
 }
 
 .table {
-  background-color: #f3033ab0;
+  background-color: #6b5c5fd6;
 }
 
 .w3 {
@@ -10689,8 +10689,8 @@ a.text-dark:focus {
 }
 
 .w3-bar {
-  background-color: #343a40;
-  color: yellow;
+  background-color: #35383c;
+  color: #fffdfd;
 }
 
 .w3-hover-opacity {

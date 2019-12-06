@@ -4,7 +4,7 @@
 <br><br><br>
 <style>
 body {
-	background-image: url("/images/alogin.jpg");
+	background-image: url("/images/admin.jpg");
   background-attachment: fixed;
   background-position: center;
   background-repeat: no-repeat;

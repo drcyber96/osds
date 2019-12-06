@@ -1,6 +1,17 @@
 @extends('layouts.adminapp')
 
 @section('content')
+<style>
+body {
+	background-color: #333;
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+
+}
+
+</style>
 <div class="container">
     <div class="row justify-content-center">
         <div class="col-md-12">

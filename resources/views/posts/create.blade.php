@@ -1,11 +1,23 @@
 @extends('layouts.app')
 
 @section('content')
+<style>
+body {
+	background-color: #333;
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+
+}
+
+</style>
+
 <div class="container">
     <div class="row justify-content-center">
         <div class="col-md-8">
             <div class="card">
-                <div class="card-header">Create Feedback Post</div>
+                <div class="card-header text-center font-weight-bold">Create Feedback Post</div>
                 <div class="card-body">
                     <form method="post" action="{{ route('posts.store') }}">
                         <div class="form-group">
@@ -26,4 +38,5 @@
         </div>
     </div>
 </div>
+
 @endsection

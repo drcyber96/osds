@@ -49,7 +49,7 @@
 </body>
 
 <footer class="w3 w3-opacity w3-hover-opacity-off">
-      <p1>{{__('messages.Powered by ')}}<a href="https://www.facebook.com/mieydeee" title="Najmi Hamdi" target="_blank" class="w3-hover-text-blue">Najmi Hamdi</a></p1><br/>
+      <p1>{{__('messages.Powered by ')}}<a href="https://www.facebook.com/mieydeee" title="Najmi Hamdi" target="_blank" >Najmi Hamdi</a></p1><br/>
        <p1 class="copy-right">{{__('messages.Copyright © 2019 iScam. All Rights Reserved')}}</p1>
     </footer>
 
@@ -61,9 +61,9 @@
     function myFunction() {
         var navbar = document.getElementById("myNavbar");
         if (document.body.scrollTop > 100 || document.documentElement.scrollTop > 100) {
-            navbar.className = "w3-bar" + " w3-card" + " w3-animate-top" + " w3-grey";
+            navbar.className = "w3-bar" + " w3-card" + " w3-animate-top" + " w3-black";
         } else {
-            navbar.className = navbar.className.replace(" w3-card w3-animate-top w3-grey", "");
+            navbar.className = navbar.className.replace(" w3-card w3-animate-top w3-black", "");
         }
     }
 

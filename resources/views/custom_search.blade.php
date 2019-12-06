@@ -4,7 +4,7 @@
 
 <style>
 body {
-  background-image: url("/images/homebg.jpg");
+  background-color: #333;
   background-attachment: fixed;
   background-position: center;
   background-repeat: no-repeat;
@@ -17,7 +17,7 @@ body {
 
   <div class="container">
 
-     <h3 align="center">{{__('lang.Search your Scammers Profile')}}</h3>
+     <h3 class="text-white" align="center">{{__('lang.Search your Scammers Profile')}}</h3>
 
 
             <div class="row">
@@ -47,7 +47,7 @@ body {
                     <div class="form-group" align="center">
                         <button type="button" name="filter" id="filter" class="btn btn-info">{{__('lang.Filter')}}</button>
 
-                        <button type="button" name="reset" id="reset" class="btn btn-default">{{__('lang.Reset')}}</button>
+                        <button type="button" name="reset" id="reset" class="btn btn-warning">{{__('lang.Reset')}}</button>
                     </div>
                 </div>
                 <div class="col-md-4"></div>
@@ -104,7 +104,7 @@ $(document).ready(function(){
                 {
                     data:'name',
                     name:'name',
-    
+
 
                 },
                 {

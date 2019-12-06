@@ -1,7 +1,18 @@
 @extends('layouts.app')
 
 @section('content')
-<div class="well">
+<style>
+body {
+	background-color: #333;
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+
+}
+
+</style>
+<div >
     <div class="row justify-content-center">
         <div class="col-md-8">
             <div class="card">

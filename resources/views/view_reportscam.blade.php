@@ -5,7 +5,7 @@
 
 
 body {
-  background-image: url("/images/scam11.jpg");
+  background-color: #333;
   background-attachment: fixed;
   background-position: center;
   background-repeat: no-repeat;

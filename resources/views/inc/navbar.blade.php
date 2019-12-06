@@ -16,8 +16,7 @@
     <a href="/reportscam" class="w3-bar-item w3-button w3-hide-small w3-hover-white"><i class="fa fa-exclamation-triangle"></i>{{ __('navbar.Reports') }} </a>
 
 
-
-
+  									
 
 
 

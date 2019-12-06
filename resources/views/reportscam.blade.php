@@ -4,7 +4,7 @@
 
 <style>
 body {
-	background-image: url("/images/alert.jpg");
+	background-color: #333;
   background-attachment: fixed;
   background-position: center;
   background-repeat: no-repeat;
@@ -22,7 +22,7 @@ body {
     <div class="row justify-content-center">
         <div class="col-md-8">
             <div class="card">
-                <div class="card-header">{{__('lang.Scammers Profile')}} </div>
+                <div class="card-header text-center font-weight-bold">{{__('lang.Scammers Profile')}} </div>
 
 <div class="card-body">
 

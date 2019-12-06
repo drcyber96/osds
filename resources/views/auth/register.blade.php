@@ -1,11 +1,23 @@
 @extends('layouts.app')
 
 @section('content')
+<br><br>
+<style>
+body {
+	background-image: url("/images/login.jpg");
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+
+}
+
+</style>
 <div class="container">
     <div class="row justify-content-center">
         <div class="col-md-8">
-            <div class="card">
-                <div class="card-header">{{ __('login.Register') }}</div>
+            <div class="card-login">
+                <div class="card-header-login font-weight-bold">{{ __('login.Register') }}</div>
 
                 <div class="card-body">
                     <form method="POST" action="{{ route('register') }}">
@@ -74,4 +86,5 @@
         </div>
     </div>
 </div>
+<br><br>
 @endsection

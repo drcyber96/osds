@@ -1,9 +1,21 @@
 @extends('layouts.app')
 
 @section('content')
+<br>
+<style>
+body {
+	background-color: #333;
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+
+}
+
+</style>
 <div class="container">
     <div class="row justify-content-center">
-        <div class="col-md-12">
+        <div class="col-md-12 text-white">
             <h1>Manage Feedback Posts</h1>
             <a href="{{ route('posts.create') }}" class="btn btn-success" style="float: right">Create Feedback Post</a>
             <table class="table table-bordered">
@@ -21,7 +33,7 @@
 
 
 
-                      
+
 
                                             <a class="btn btn-info " href="{{ route('posts.show',$post->id) }}">Show</a>
 
@@ -38,4 +50,5 @@
         </div>
     </div>
 </div>
+<br><br><br><br><br><br><br><br><br>
 @endsection

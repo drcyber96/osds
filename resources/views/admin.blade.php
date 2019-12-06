@@ -1,8 +1,18 @@
 @extends('layouts.adminapp')
 
 @section('content')
+<br><br><br>
+<style>
+body {
+	background-color: #333;
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
 
+}
 
+</style>
 
 <div class="container">
     <div class="row justify-content-center">
@@ -25,7 +35,7 @@
     </div>
 </div>
 
-
+<br><br><br><br><br><br><br><br><br><br>
 
 
 @endsection

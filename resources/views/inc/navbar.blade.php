@@ -7,8 +7,11 @@
     <a class="w3-bar-item w3-button w3-hover-red w3-hide-medium w3-hide-large w3-right" href="javascript:void(0);" onclick="toggleFunction()" title="Toggle Navigation Menu">
       <i class="fa fa-bars"></i>
     </a>
-    <a href="/" class="w3-left w3-bar-item w3-padding-small w3-yellow w3-xlarge w3-wide  w3-animate-opacity "><strong>iSCAM</strong></a>
-    <a href="/home" class="w3-bar-item w3-button w3-hide-small w3-hover-white"><i class="fa fa-home"></i>{{ __('navbar.Home') }}</a>
+
+
+    <h1> <a class="navbar-brand1 logo1" href="/">iSCAM</a></h1>
+
+    <a href="/home" class="w3-bar-item  w3-button w3-hide-small w3-hover-white"><i class="fa fa-home"></i>{{ __('navbar.Home') }}</a>
     <a href="/about" class="w3-bar-item w3-button w3-hide-small w3-hover-yellow"><i class="fa fa-info-circle"></i> {{ __('navbar.About') }}</a>
     <a href="/customsearch" class="w3-bar-item w3-button w3-hide-small w3-hover-yellow"><i class="fa fa-search"></i>{{ __('navbar.Search Scammers') }}</a>
     <a href="/info" class="w3-bar-item w3-button w3-hide-small w3-hover-white"><i class="fa fa-book"></i> {{ __('navbar.Info') }}</a>
@@ -16,7 +19,7 @@
     <a href="/reportscam" class="w3-bar-item w3-button w3-hide-small w3-hover-white"><i class="fa fa-exclamation-triangle"></i>{{ __('navbar.Reports') }} </a>
 
 
-  									
+
 
 
 

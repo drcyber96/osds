@@ -5,7 +5,7 @@
     <a class="w3-bar-item w3-button w3-hover-red w3-hide-medium w3-hide-large w3-right" href="javascript:void(0);" onclick="toggleFunction()" title="Toggle Navigation Menu">
       <i class="fa fa-bars"></i>
     </a>
-    <a href="/admin" class="w3-left w3-bar-item w3-padding-small w3-yellow w3-xlarge w3-wide  w3-animate-opacity "><strong>iSCAM</strong></a>
+    <h1> <a class="navbar-brand1 logo1" href="/">iSCAM</a></h1>
     <a href="/admin" class="w3-bar-item w3-button w3-hide-small w3-hover-white"><i class="fa fa-home"></i>Home</a>
     <a href="/manage_scammer" class="w3-bar-item w3-button w3-hide-small w3-hover-yellow"><i class="fa fa-th"></i>Manage Scammers</a>
     <a href="/posts/admin-index" class="w3-bar-item w3-button w3-hide-small w3-hover-yellow"><i class="fa fa-commenting"></i> Manage Feedback</a>

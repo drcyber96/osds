@@ -10730,6 +10730,27 @@ body {
 .w3-bar {
   background-color: #3330;
   color: #ffffff;
+  width: 100%;
+  border-radius: 0px;
+  z-index: 999;
+  padding: 5px 0px;
+  margin-bottom: 0px;
+}
+
+.logo1 {
+  font-weight: 900;
+  font-size: 40px;
+  color: #ffffff !important;
+  letter-spacing: 3px;
+}
+
+.navbar-brand1 {
+  float: left;
+  height: 50px;
+  padding: 15px 15px;
+  font-size: 35px;
+  font-family: Hoefler;
+  line-height: 20px;
 }
 
 .w3-hover-opacity {

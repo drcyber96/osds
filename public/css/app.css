@@ -10654,10 +10654,6 @@ a.text-dark:focus {
   border: 5px solid #000000e8;
 }
 
-.table-bordered {
-  border: 10px solid #000000;
-}
-
 .table {
   background-color: #6b5c5fd6;
 }

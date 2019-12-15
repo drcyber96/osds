@@ -29,6 +29,7 @@ body {
           <th scope="col">Platform</th>
           <th scope="col">Product</th>
 
+
           <th scope="col">Action</th>
         </tr>
       </thead>
@@ -45,8 +46,14 @@ body {
 
 
 
+
+
+
+
+
           <td>
         				<form action="{{ route('Scammers.destroy', $scammers->id) }}" method="post">
+								
         					<a href="{{ route('Scammers.edit', $scammers->id) }}" class="btn btn-primary">Edit</a>
         					@csrf
         					@method('DELETE')

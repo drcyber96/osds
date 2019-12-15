@@ -55,7 +55,7 @@ body {
             <div class="form-group">
               <label class="col-md-4 text-left">Account Number</label>
               <div class="col-md-8">
-                <input type="number" name="bank_account" value="{{ $scammers->bank_account }}" class="form-control input-lg" />
+	                <input type="number" name="bank_account" value="{{ $scammers->bank_account }}" class="form-control input-lg" />
               </div>
             </div>
             <br />
@@ -88,10 +88,21 @@ body {
                 {{Form::select('product', ['Clothing' => 'Clothing', 'Services' => 'Services',  'PC/Laptop' => 'PC/Laptop', 'Mobile&Gadgets' => 'Mobile&Gadgets', 'Jewellery/Gold' => 'Jewellery/Gold',  'Cosmetic/HealthCare' => 'Cosmetic/HealthCare',  'Baby Product/Toys' => 'Baby Product/Toys', 'Motocycle/Car/Accessories' => 'Motocycle/Car/Accessories'], null, ['placeholder' => 'Choose Product...'])}}
               </div>
             </div>
+						<br />
+						<br />
+						<br />
+						<div class="form-group">
+							<label class="col-md-4 text-left">Link</label>
+							<div class="col-md-8">
+								<input type="text" name="link" value="{{ $scammers->link }}" class="form-control input-lg" />
+							</div>
+						</div>
            	<br /><br /><br />
            	<div class="form-group text-left">
            		<input type="submit" name="edit" class="btn btn-primary input-lg" value="Update" />
            	</div>
+
+
 
 
 

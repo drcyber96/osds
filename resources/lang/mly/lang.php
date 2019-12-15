@@ -22,6 +22,10 @@ return[
   'Bank Account'=>'Akaun Bank',
   'Platform Scam'=>' Scam Platform',
   'Product Scam'=> 'Scam Produk',
+  'Link'=> 'Pautan',
+  'Show'=> 'Tunjukkan',
+
+
 
 //page info
 'Latest Posts'  => 'Catatan Terkini',

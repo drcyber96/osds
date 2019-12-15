@@ -66,7 +66,7 @@ body {
                                      <th>{{__('lang.Bank Account')}}</th>
                                      <th>{{__('lang.Platform Scam')}}</th>
                                      <th>{{__('lang.Product Scam')}}</th>
-
+                                    <th>{{__('lang.Link')}}</th>
 
 
 
@@ -103,9 +103,7 @@ $(document).ready(function(){
 
                 {
                     data:'name',
-                    name:'name',
-
-
+                    name:'name'
                 },
                 {
                     data:'phone',
@@ -115,6 +113,7 @@ $(document).ready(function(){
                     data:'email',
                     name:'email'
                 },
+
                 {
                     data:'bank_name',
                     name:'bank_name'
@@ -130,7 +129,14 @@ $(document).ready(function(){
                 {
                     data:'product',
                     name:'product'
-                }
+                },
+                { "data": "link",
+         "fnCreatedCell": function (nTd, sData, oData, iRow, iCol) {
+             $(nTd).html('<a target="_blank" href="'+oData.link+'"  class="btn btn-primary" >{{__('lang.Show')}}</a>');
+
+
+         }
+     }
             ]
         });
     }

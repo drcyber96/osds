@@ -68,6 +68,12 @@ body {
     {{Form::select('product', ['Clothing' => 'Clothing', 'Services' => 'Services',  'PC/Laptop' => 'PC/Laptop', 'Mobile&Gadgets' => 'Mobile&Gadgets', 'Jewellery/Gold' => 'Jewellery/Gold',  'Cosmetic/HealthCare' => 'Cosmetic/HealthCare',  'Baby Product/Toys' => 'Baby Product/Toys', 'Motocycle/Car/Accessories' => 'Motocycle/Car/Accessories'], null, ['placeholder' => 'Choose Product...'])}}
 
   </div>
+	<div class="form-group ">
+
+	  {{Form::label('link', 'Link')}}
+	  {{Form::text('link', '',['class' => 'form-control', 'placeholder' => 'Enter Link Description'])}}
+
+	</div>
 
 <div>
   {{Form::submit('Submit', ['class' => 'btn btn-primary'])}}

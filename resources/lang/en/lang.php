@@ -26,7 +26,8 @@ return[
 'Bank Account'=>'Bank Account',
 'Platform Scam'=>' Platform Scam',
 'Product Scam'=> 'Product Scam',
-
+'Link'=> 'Link',
+'Show'=> 'Show',
 //page info
 
 'Latest Posts'  => 'Latest Posts',

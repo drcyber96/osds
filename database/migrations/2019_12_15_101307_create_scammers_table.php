@@ -22,6 +22,7 @@ class CreateScammersTable extends Migration
             $table->string('bank_account');
             $table->string('platform');
             $table->string('product');
+            $table->string('link');
             $table->timestamps();
         });
     }

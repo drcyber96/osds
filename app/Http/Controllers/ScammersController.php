@@ -24,7 +24,8 @@ class ScammersController extends Controller
         'bank_account'=> 'required',
         'bank_name'=> 'required',
         'platform'=> 'required',
-        'product'=> 'required'
+        'product'=> 'required',
+        'link'=> 'required'
 ]);
 
     //Create New Scammers
@@ -36,6 +37,7 @@ class ScammersController extends Controller
     $scammer-> bank_name = $request->input('bank_name');
     $scammer-> platform = $request->input('platform');
     $scammer-> product = $request->input('product');
+    $scammer-> link = $request->input('link');
     //save Scammers
     $scammer->save();
 
@@ -83,8 +85,9 @@ class ScammersController extends Controller
            'bank_account'=> 'required',
            'bank_name'=> 'required',
            'platform'=> 'required',
-           'product'=> 'required'
-
+           'product'=> 'required',
+           'link'=> 'required'
+           
                ]);
 
            $form_scammers = array(
@@ -95,7 +98,8 @@ class ScammersController extends Controller
                 'bank_account' => $request->bank_account,
                 'bank_name' => $request->bank_name,
                 'platform' => $request->platform,
-                'product' => $request->product
+                'product' => $request->product,
+                'link' => $request->link
 
            );
            Scammer::whereId($id)->update($form_scammers);
@@ -106,7 +110,12 @@ class ScammersController extends Controller
 
 
 
+       public function show($id)
+       {
+           $scammers = Scammer::find($id);
+           return view('view_scammers', compact ('scammers'));
 
+       }
 
    public function destroy($id)
       {

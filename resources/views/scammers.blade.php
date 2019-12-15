@@ -71,7 +71,7 @@ body {
 	<div class="form-group ">
 
 	  {{Form::label('link', 'Link')}}
-	  {{Form::text('link', '',['class' => 'form-control', 'placeholder' => 'Enter Link Description'])}}
+	  {{Form::text('link', '',['class' => 'form-control', 'placeholder' => 'Enter Link '])}}
 
 	</div>
 

@@ -2,6 +2,8 @@
 
 @section('content')
 
+
+
 <style>
 body {
   background-color: #333;

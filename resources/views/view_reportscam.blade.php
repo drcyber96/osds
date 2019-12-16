@@ -46,6 +46,10 @@ img {
 										    <td>Scammer Name</td>
 										    <td>{{$reportscam-> name}}</td>
 										  </tr>
+                      <tr>
+										    <td>Phone</td>
+										    <td>{{$reportscam-> phone}}</td>
+										  </tr>
 											<tr>
 										    <td>Email</td>
 										    <td>{{$reportscam-> email}}</td>
@@ -66,7 +70,10 @@ img {
 										    <td>Product</td>
 										    <td>{{$reportscam-> product}}</td>
 										  </tr>
-
+                      <tr>
+										    <td>Link</td>
+										    <td>{{$reportscam-> link}}</td>
+										  </tr>
                       </table>
 
 

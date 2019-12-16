@@ -70,10 +70,7 @@ img {
 										    <td>Product</td>
 										    <td>{{$reportscam-> product}}</td>
 										  </tr>
-                      <tr>
-										    <td>Link</td>
-										    <td>{{$reportscam-> link}}</td>
-										  </tr>
+                      
                       </table>
 
 

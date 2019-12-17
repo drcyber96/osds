@@ -1,4 +1,4 @@
-@extends('layouts.adminapp')
+@extends('layouts.apps')
 
 @section('content')
 <style>
@@ -70,7 +70,7 @@ img {
 										    <td>Product</td>
 										    <td>{{$reportscam-> product}}</td>
 										  </tr>
-                      
+
                       </table>
 
 

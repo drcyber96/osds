@@ -46,7 +46,7 @@ body {
 
           <td>
         				<form action="{{ route('reportscam.destroy', $reportscam->id) }}" method="post">
-        					<a href="{{ route('reportscam.show',$reportscam->id) }}" class="btn btn-primary">Show</a>
+        					<a target="_blank" href="{{ route('reportscam.show',$reportscam->id) }}" class="btn btn-primary">Show</a>
         					@csrf
         					@method('DELETE')
         					<button type="submit" class="btn btn-danger">Delete</button>
